@@ -939,7 +939,7 @@ export default function App() {
               🏘️ Nama Desa / Wilayah<Text style={styles.required}> *</Text>
             </Text>
             <TextInput
-              style={[styles.input, formErrors.namaDesa && styles.inputError]}
+              style={[styles.input, formErrors.namaDesa ? styles.inputError : null]}
               placeholder="Contoh: Desa Sumberejo, Kec. Taman"
               placeholderTextColor={COLORS.textMuted}
               value={form.namaDesa}
@@ -961,7 +961,7 @@ export default function App() {
               🌾 Nama Lahan / Blok<Text style={styles.required}> *</Text>
             </Text>
             <TextInput
-              style={[styles.input, formErrors.namaLahan && styles.inputError]}
+              style={[styles.input, formErrors.namaLahan ? styles.inputError : null]}
               placeholder="Contoh: Sawah Blok A, Kebun Utara"
               placeholderTextColor={COLORS.textMuted}
               value={form.namaLahan}
@@ -983,7 +983,7 @@ export default function App() {
               🌱 Komoditas / Tanaman<Text style={styles.required}> *</Text>
             </Text>
             <TextInput
-              style={[styles.input, formErrors.komoditas && styles.inputError]}
+              style={[styles.input, formErrors.komoditas ? styles.inputError : null]}
               placeholder="Contoh: Padi, Jagung, Kedelai, Cabai"
               placeholderTextColor={COLORS.textMuted}
               value={form.komoditas}
