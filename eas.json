@@ -14,9 +14,9 @@
     },
     "preview": {
       "distribution": "internal",
-      "image": "ubuntu-22.04-jdk-17-ndk-r25b",
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
       },
       "env": {
         "EXPO_PUBLIC_SUPABASE_URL": "https://hstbxunguzeqcwqfigtf.supabase.co",
