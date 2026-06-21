@@ -18,6 +18,7 @@
         "buildType": "apk",
         "image": "ubuntu-22.04-jdk-17-ndk-r25b"
       },
+      "node": "22.13.0", 
       "env": {
         "EXPO_PUBLIC_SUPABASE_URL": "https://hstbxunguzeqcwqfigtf.supabase.co",
         "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhzdGJ4dW5ndXplcWN3cWZpZ3RmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE4NDcwNjQsImV4cCI6MjA5NzQyMzA2NH0.2p1sbJ-l8nwVaZJTQLIS1E1ZRaOBVoochHtszLu7F6U"
